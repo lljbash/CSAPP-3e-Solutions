@@ -1,0 +1,16 @@
+clang
+%c -std=c11
+%h -x
+-Wall
+-Wextra
+-Wconversion
+-Wno-sign-conversion
+-Wno-unused-const-variable
+-Wno-unused-function
+-Wno-c++98-compat
+-Wno-long-long
+-Wno-variadic-macros
+-fexceptions
+-DEDITOR
+-I/usr/local/include
+-I./include
